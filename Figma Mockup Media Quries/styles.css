@@ -78,7 +78,7 @@ nav ul li {
   font-size: 22px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 858px) {
   nav ul li {
     display: none;
   }
@@ -137,15 +137,14 @@ nav ul li {
 
 .card-big {
   flex: 2;
-  height: 544px;
 }
 
 .card-small {
   flex: 1;
-  height: 544px;
 }
 .card-big,
 .card-small {
+  height: 500px;
   border-bottom: 1px solid #0000004d;
 }
 
