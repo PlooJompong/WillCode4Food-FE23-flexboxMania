@@ -1,4 +1,4 @@
-# Group-FE23-Figma-Mockup-
+# Group4-FE23-Figma-Mockup-
 
 Group 4 FE23
 
