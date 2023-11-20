@@ -1,6 +1,6 @@
-# Group4-FE23-Figma-Mockup-
+# Grupp4-FE23-Figma-Mockup
 
-Group 4 FE23
+Grupp 4 FE23
 
 Rebecca Sighed Paemurd
 Johanna Tepsa
