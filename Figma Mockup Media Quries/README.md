@@ -1,3 +1,0 @@
-# Figma-Mockup
-
-Grupp arbete

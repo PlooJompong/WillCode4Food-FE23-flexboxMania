@@ -21,37 +21,35 @@
       <nav class="nav-container">
         <img src="https://azomo.io/assets/zocom-logo-dark-86598755.svg" />
         <ul class="flex-c">
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Contact</li>
+          <li><a href="#" class="clr-darkcharcoal">Home</a></li>
+          <li><a href="#" class="clr-darkcharcoal">About</a></li>
+          <li><a href="#" class="clr-darkcharcoal">Services</a></li>
+          <li><a href="#" class="clr-darkcharcoal">Contact</a></li>
         </ul>
 
         <div class="hidden-menu">
-          <i class="fa-solid fa-bars"></i>
+          <a href="#"><i class="fa-solid fa-bars clr-darkcharcoal"></i></a>
         </div>
       </nav>
     </header>
 
     <main>
       <!-- Hero -->
-      <div class="hero bg-darkcharcoal flex-clm-c">
+      <section class="hero bg-darkcharcoal flex-clm-c">
         <h1 class="clr-white">Everything is designed</h1>
-        <div>
-          <p class="clr-darkcharcoal">pretty cool</p>
-        </div>
-      </div>
+        <button>pretty cool</button>
+      </section>
 
       <!-- Content -->
-      <div class="container">
+      <section class="container">
         <!-- Big -->
-        <div class="card-big border-bottom">
-          <div class="card">
-            <div class="dots-container">
-              <div class="dot bg-darkcharcoal"></div>
-              <div class="dot bg-darkcharcoal"></div>
-              <div class="dot bg-darkcharcoal"></div>
-            </div>
+        <article class="card-big border-bottom">
+          <div class="card-img">
+            <button class="dots-container">
+              <span class="dot bg-darkcharcoal"></span>
+              <span class="dot bg-darkcharcoal"></span>
+              <span class="dot bg-darkcharcoal"></span>
+            </button>
           </div>
           <h2 class="title">card 1</h2>
           <p>
@@ -60,16 +58,16 @@
             twee polaroid hella slow-carb art party deep v affogato chambray
             taxidermy chillwave venmo small batch.
           </p>
-        </div>
+        </article>
 
         <!-- Small -->
-        <div class="card-small border-bottom">
-          <div class="card">
-            <div class="dots-container">
-              <div class="dot bg-darkcharcoal"></div>
-              <div class="dot bg-darkcharcoal"></div>
-              <div class="dot bg-darkcharcoal"></div>
-            </div>
+        <article class="card-small border-bottom">
+          <div class="card-img">
+            <button class="dots-container">
+              <span class="dot bg-darkcharcoal"></span>
+              <span class="dot bg-darkcharcoal"></span>
+              <span class="dot bg-darkcharcoal"></span>
+            </button>
           </div>
           <h2 class="title">card 2</h2>
           <p>
@@ -78,16 +76,15 @@
             twee polaroid hella slow-carb art party deep v affogato chambray
             taxidermy chillwave venmo small batch.
           </p>
-        </div>
-
+        </article>
         <!-- Small left -->
-        <div class="card-small border-bottom">
-          <div class="card">
-            <div class="dots-container">
-              <div class="dot bg-darkcharcoal"></div>
-              <div class="dot bg-darkcharcoal"></div>
-              <div class="dot bg-darkcharcoal"></div>
-            </div>
+        <article class="card-small border-bottom">
+          <div class="card-img">
+            <button class="dots-container">
+              <span class="dot bg-darkcharcoal"></span>
+              <span class="dot bg-darkcharcoal"></span>
+              <span class="dot bg-darkcharcoal"></span>
+            </button>
           </div>
           <h2 class="title">card 3</h2>
           <p>
@@ -96,16 +93,16 @@
             twee polaroid hella slow-carb art party deep v affogato chambray
             taxidermy chillwave venmo small batch.
           </p>
-        </div>
+        </article>
 
         <!-- Small middle -->
-        <div class="card-small border-bottom">
-          <div class="card">
-            <div class="dots-container">
-              <div class="dot bg-darkcharcoal"></div>
-              <div class="dot bg-darkcharcoal"></div>
-              <div class="dot bg-darkcharcoal"></div>
-            </div>
+        <article class="card-small border-bottom">
+          <div class="card-img">
+            <button class="dots-container">
+              <span class="dot bg-darkcharcoal"></span>
+              <span class="dot bg-darkcharcoal"></span>
+              <span class="dot bg-darkcharcoal"></span>
+            </button>
           </div>
           <h2 class="title">card 4</h2>
           <p>
@@ -114,16 +111,16 @@
             twee polaroid hella slow-carb art party deep v affogato chambray
             taxidermy chillwave venmo small batch.
           </p>
-        </div>
+        </article>
 
         <!-- Small right-->
-        <div class="card-small border-bottom">
-          <div class="card">
-            <div class="dots-container">
-              <div class="dot bg-darkcharcoal"></div>
-              <div class="dot bg-darkcharcoal"></div>
-              <div class="dot bg-darkcharcoal"></div>
-            </div>
+        <article class="card-small border-bottom">
+          <div class="card-img">
+            <button class="dots-container">
+              <span class="dot bg-darkcharcoal"></span>
+              <span class="dot bg-darkcharcoal"></span>
+              <span class="dot bg-darkcharcoal"></span>
+            </button>
           </div>
           <h2 class="title">card 5</h2>
           <p>
@@ -132,47 +129,55 @@
             twee polaroid hella slow-carb art party deep v affogato chambray
             taxidermy chillwave venmo small batch.
           </p>
-        </div>
-      </div>
+        </article>
+      </section>
 
       <!-- Quote  -->
-      <div class="quote flex-clm-c">
+      <section class="quote flex-clm-c">
         <div class="circle"></div>
         <q> Holy smokes Batman! </q>
         <p>Robin</p>
-      </div>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer>
-      <div class="footer-container clr-white">
-        <div class="footer-nav hidden-footer-nav">
-          <p>Nav</p>
+      <section class="footer-container clr-white">
+        <nav class="footer-nav hidden-footer-nav">
+          <h2>Nav</h2>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contacts</li>
+            <li><a href="#" class="clr-white">Home</a></li>
+            <li><a href="#" class="clr-white">About</a></li>
+            <li><a href="#" class="clr-white">Services</a></li>
+            <li><a href="#" class="clr-white">Contact</a></li>
           </ul>
-        </div>
-        <div class="footer-about">
-          <p>About us</p>
+        </nav>
+
+        <article class="footer-about">
+          <h2>About us</h2>
           <p>
             Tech virtual drone online browser platform through in a system. But
             stream software offline. Professor install angel sector anywhere
             create at components smart. Document fab developers encryption
             smartphone powered, bespoke.
           </p>
-        </div>
-        <div class="footer-social-media">
-          <p>Social media</p>
-          <div class="icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-twitter"></i>
-          </div>
-        </div>
-      </div>
+        </article>
+
+        <article class="footer-social-media">
+          <h2>Social media</h2>
+          <ul class="flex-row">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook clr-white"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube clr-white"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter clr-white"></i></a>
+            </li>
+          </ul>
+        </article>
+      </section>
     </footer>
   </body>
 </html>
