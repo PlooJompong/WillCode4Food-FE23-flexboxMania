@@ -1,6 +1,6 @@
-# Grupp4-FE23-Figma-Mockup
+# WillCode4Food-FE23-flexboxMania
 
-Grupp 4 FE23
+WillCode4Food FE23
 
 Rebecca Sighed Paemurd
 <br>
